@@ -1,0 +1,30 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    display:flex;
+    gap: 70px;
+    flex-direction: row-reverse;
+    background-color: #000;
+    justify-content: right;
+}
+
+button:hover{
+    color: red;
+    background-color: white;
+}
+
+button{
+    background-color: aqua;
+    border-radius: 10%
+}
+
+.c{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    height: 40px;
+    width: 80px;
+}
